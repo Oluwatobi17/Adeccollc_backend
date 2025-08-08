@@ -15,7 +15,7 @@ class SendFormEmail(View):
         # """.format(first_name,last_name,email,address,phone);
 
         # print(data);
-        subject = 'New Application'
+        subject = 'JobFlex New Application'
         message = data;
         recipient_list = ['officialhardacre@gmail.com']  # Replace with the recipient's email addresses
 
@@ -39,7 +39,7 @@ class SendFormEmailAirMax(View):
         # """.format(first_name,last_name,email,address,phone);
 
         # print(data);
-        subject = 'New Application'
+        subject = 'AirMax New Application'
         message = data;
         recipient_list = ['hardycre.co@gmail.com']  # Replace with the recipient's email addresses
 
@@ -63,9 +63,9 @@ class SendFormEmailAirJordan(View):
         # """.format(first_name,last_name,email,address,phone);
 
         # print(data);
-        subject = 'New Application'
-        message = data;
-        recipient_list = ['aaddeex142@gmail.com']  # Replace with the recipient's email addresses
+        subject = 'AirJordan New Application'
+        message = data; #aaddeex142@gmail.com
+        recipient_list = ['hardycre.co@gmail.com']  # Replace with the recipient's email addresses
 
         send_custom_email(subject, message, recipient_list)
 

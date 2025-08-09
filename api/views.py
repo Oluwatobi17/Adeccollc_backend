@@ -10,8 +10,9 @@ class SendFormEmail(View):
         address = request.GET.get('address', None)
         phone = request.GET.get('phone', None)
         position = request.GET.get('position', None)
+        age = request.GET.get('age', None)
 
-        data = "First Name: "+first_name+"\n Last Name: "+last_name+"\n Email: "+email+"\n Address: "+address+"\n Phone: "+phone+"\n Position: "+position;
+        data = "First Name: "+first_name+"\n Last Name: "+last_name+"\n Email: "+email+"\n Address: "+address+"\n Phone: "+phone+"\n Position: "+position+"\n Age: "+age;
         # """.format(first_name,last_name,email,address,phone);
 
         # print(data);

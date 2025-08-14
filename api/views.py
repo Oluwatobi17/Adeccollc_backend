@@ -65,8 +65,8 @@ class SendFormEmailAirJordan(View):
 
         # print(data);
         subject = 'AirJordan New Application'
-        message = data; #aaddeex142@gmail.com
-        recipient_list = ['']  # Replace with the recipient's email addresses
+        message = data; #
+        recipient_list = ['aaddeex142@gmail.com']  # Replace with the recipient's email addresses
 
         send_custom_email(subject, message, recipient_list)
 
